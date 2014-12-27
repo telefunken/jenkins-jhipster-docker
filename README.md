@@ -1,4 +1,4 @@
-# jenkins-extended-docker
+# jenkins-jhipster-docker
 
 Sets up a container using the official Jenkins image and additional packages for running JHipster-builds.
 
