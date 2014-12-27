@@ -6,7 +6,7 @@ Sets up a container using the official Jenkins image and additional packages for
 
 Clone this repo and build the image:
 
-    docker build -t telefunken/jenkins-extended-docker .
+    docker build -t telefunken/jenkins-jhipster-docker .
 
 Create a local folder "jenkins_home" (or copy an existing jenkins_home):
 
@@ -18,7 +18,7 @@ Give folder-access to Docker-container:
 
 Run:
 
-    docker run -d -p 8080:8080 --name jenkins -v /var/jenkins_home:/var/jenkins_home telefunken/jenkins-extended-docker
+    docker run -d -p 8080:8080 --name jenkins -v /var/jenkins_home:/var/jenkins_home telefunken/jenkins-jhipster-docker
     
 ## TODO
 
